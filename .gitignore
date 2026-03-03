@@ -1,0 +1,39 @@
+﻿# Build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Test results
+TestResults/
+*.trx
+
+# Generated sample output
+samples-out/
+src/Bukovac.Graphics.Examples/bin/
+src/Bukovac.Graphics.Examples/obj/
+src/Bukovac.Graphics/bin/
+src/Bukovac.Graphics/obj/
+
+# OS files
+.DS_Store
+Thumbs.db
