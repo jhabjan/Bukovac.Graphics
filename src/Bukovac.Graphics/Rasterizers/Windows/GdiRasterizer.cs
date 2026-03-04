@@ -29,7 +29,6 @@ namespace Bukovac.Graphics.Rasterizers.Windows;
 [SupportedOSPlatform("windows")]
 public sealed class GdiRasterizer : IRasterizer
 {
-    private const int GdiTextVerticalOffsetPx = -2;
     private nint _hwnd;
     private nint _hdcWindow;
     private nint _hdcMem;
@@ -652,7 +651,7 @@ public sealed class GdiRasterizer : IRasterizer
 
                 string line = cmd.Text[start..lineEnd];
                 int xLine = (int)cmd.P1.X;
-                int yLine = (int)cmd.P1.Y + GdiTextVerticalOffsetPx + (lineIndex * lineAdvance);
+                int yLine = (int)cmd.P1.Y + (lineIndex * lineAdvance);
                 bool finiteWidth = !float.IsPositiveInfinity(cmd.MaxWidth);
 
                 if (finiteWidth)
@@ -716,7 +715,7 @@ public sealed class GdiRasterizer : IRasterizer
         }
 
         int x = (int)cmd.P1.X;
-        int y = (int)cmd.P1.Y + GdiTextVerticalOffsetPx;
+        int y = (int)cmd.P1.Y;
         int drawWidth = 0;
         if (cmd.GlyphAdvances is { Length: > 0 } advances)
         {
