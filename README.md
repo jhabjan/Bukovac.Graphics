@@ -6,7 +6,7 @@
        width="35%">
 </p>
 
-**Cross-platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS.
+**Cross-platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS (`Windows`, `Linux`, `macOS`).
 
 ## Highlights
 
