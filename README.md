@@ -1,17 +1,17 @@
 # Bukovac.Graphics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.Logo.png"
+  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.png"
        alt="Bukovac.Graphics"
        width="35%">
 </p>
 
-**Cross-platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS.
+**Cross-platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS (`Windows`, `Linux`, `macOS`).
 
 ## Highlights
 
 - Works across Windows, Linux, and macOS with a single `Canvas` API.
-- Renders both off-screen bitmaps and directly to on-screen native window surfaces.
+- Renders both `off-screen bitmaps` and `directly to on-screen native window surfaces`.
 - Supports both CPU and GPU rendering backends:
 - CPU backends: GDI (Windows), Cairo (Linux), CoreGraphics (macOS)
 - GPU backends: Direct2D/OpenGL (Windows), OpenGL (Linux), Metal (macOS)
