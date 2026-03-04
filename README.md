@@ -1,7 +1,7 @@
 # Bukovac.Graphics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.Logo.png"
+  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.png"
        alt="Bukovac.Graphics"
        width="35%">
 </p>
