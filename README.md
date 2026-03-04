@@ -11,7 +11,7 @@
 ## Highlights
 
 - Works across Windows, Linux, and macOS with a single `Canvas` API.
-- Renders both off-screen bitmaps and directly to on-screen native window surfaces.
+- Renders both `off-screen bitmaps` and `directly to on-screen native window surfaces`.
 - Supports both CPU and GPU rendering backends:
 - CPU backends: GDI (Windows), Cairo (Linux), CoreGraphics (macOS)
 - GPU backends: Direct2D/OpenGL (Windows), OpenGL (Linux), Metal (macOS)
