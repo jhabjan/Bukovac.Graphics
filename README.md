@@ -1,12 +1,10 @@
-# Bukovac.Graphics
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.png"
+  <img src="https://raw.githubusercontent.com/jhabjan/Bukovac.Graphics/refs/heads/main/docs/resources/Bukovac.Graphics.Banner.png"
        alt="Bukovac.Graphics"
-       width="35%">
+       height="35%">
 </p>
 
-**Cross-platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS (`Windows`, `Linux`, `macOS`).
+**Bukovac.Graphics is Cross-Platform CPU & GPU 2D graphics NativeAOT-friendly library for .NET**, with multiple native rasterizer backends per OS (`Windows`, `Linux`, `macOS`).
 
 ## Highlights
 
